@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background:url(timerbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:cursive;
+    color: #ffffff;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 51px;
+}
+table{
+    margin: auto;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+input{
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+}
+input:hover{
+    background-color: lightgray;
+}
+.btn{
+    font-size: 17px;
+    padding: 10px;
+    margin: 22px;
+    min-width: 120px;
+    border-radius: 33px;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: darkseagreen;
+    border: 2px solid rgb(87, 17, 17);
+    font-weight: 500;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.time{
+    font-size: 100px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(24, 24, 24, 0.3);
+    width: 150px;
+    margin: 0 10px;
+}
